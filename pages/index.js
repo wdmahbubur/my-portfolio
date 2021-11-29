@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Header from './component/header'
+import Header from './component/Header'
 import React from 'react';
 import Banner from './component/Banner';
 
