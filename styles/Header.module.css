@@ -1,0 +1,19 @@
+.mobilePopupMenu {
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    content: "";
+    left: -100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.5s linear;
+    width: 100%;
+    z-index: 9999;
+}
+
+.mobileMenuInner {
+    background: linear-gradient(145deg, #e2e8ec, #fff);
+    width: 310px;
+    height: 100vh;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import me from '../../public/me.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import styles from '../../styles/Header.module.css';
 
 const Header = () => {
     const mobileMenu = React.useRef();
@@ -42,7 +42,7 @@ const Header = () => {
                             <li><Link href="#"> Contact</Link></li>
                             <li>
                                 <Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
-                                    <a className="py-4 px-5 rounded-lg outline-none default-btn default-gradient transition duration-500 linear text-blue-500 uppercase font-semibold">Download Resume</a>
+                                    <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
                                 </Link>
                             </li>
                         </ul>
@@ -50,8 +50,8 @@ const Header = () => {
                 </div>
             </nav>
             {/* mobile menu */}
-            <div className="mobile-popup-menu" ref={mobileMenu}>
-                <div className="mobile-menu-inner">
+            <div className={styles.mobilePopupMenu} ref={mobileMenu}>
+                <div className={styles.mobileMenuInner}>
                     <div className="flex justify-between items-center border-b-2 border-gray-400 p-2">
                         <div className="flex items-center">
                             <Image src={me} width={40} height={40} alt="icon" className="rounded-full flex items-center justify-center logo" />
@@ -69,7 +69,9 @@ const Header = () => {
                             <li><Link href="#"> Projects</Link></li>
                             <li><Link href="#"> Blog</Link></li>
                             <li><Link href="#"> Contact</Link></li>
-                            <li><button className="py-4 px-5 rounded-lg outline-none default-btn default-gradient transition duration-500 linear text-blue-500 uppercase font-semibold"> Download Resume</button></li>
+                            <li><Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
+                                <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
+                            </Link></li>
                         </ul>
                     </div>
                     <div className="px-2 pb-5 absolute bottom-0">

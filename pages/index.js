@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from './component/header'
 import React from 'react';
+import Banner from './component/Banner';
 
 export default function Home() {
 
@@ -15,7 +16,7 @@ export default function Home() {
 
       <Header />
       <main className={styles.main}>
-
+        <Banner />
       </main>
 
       <footer className={styles.footer}>
