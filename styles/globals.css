@@ -37,13 +37,12 @@ a {
   background-color: rgba(0, 0, 0, 0.8);
   bottom: 0;
   content: "";
-  left: 0;
+  left: -100%;
   opacity: 0;
   position: fixed;
   right: 0;
   top: 0;
-  transition: opacity 0.5s ease-out;
-  visibility: hidden;
+  transition: all 0.5s linear;
   width: 100%;
   z-index: 9999;
 }

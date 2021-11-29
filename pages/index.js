@@ -7,7 +7,21 @@ import me from '../public/me.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import React from 'react';
+
 export default function Home() {
+  const mobileMenu = React.useRef();
+
+  const openMobileMenu = () => {
+    mobileMenu.current.style.left = "0";
+    mobileMenu.current.style.opacity = "100%";
+  }
+
+  const closeMobileMenu = () => {
+    mobileMenu.current.style.left = "-100%";
+    mobileMenu.current.style.opacity = "0%";
+  }
+
   return (
     <>
       <Head>
@@ -24,7 +38,7 @@ export default function Home() {
               <Image src={me} width={40} height={40} alt="icon" className="rounded-full flex items-center justify-center logo" />
               <h4 className="ml-2 font-medium text-xl sm:text-2xl text-gray-700 ">MAHBUBUR RAHMAN</h4>
             </div>
-            <div className="sm:hidden">
+            <div className="sm:hidden" onClick={openMobileMenu} >
               <FontAwesomeIcon icon={faBars} className="text-gray-700" height="50" />
             </div>
             {/* desktop menu */}
@@ -46,14 +60,14 @@ export default function Home() {
           </div>
         </nav>
         {/* mobile menu */}
-        <div className="mobile-popup-menu">
+        <div className="mobile-popup-menu" ref={mobileMenu}>
           <div className="mobile-menu-inner">
             <div className="flex justify-between items-center border-b-2 border-gray-400 p-2">
               <div className="flex items-center">
                 <Image src={me} width={40} height={40} alt="icon" className="rounded-full flex items-center justify-center logo" />
                 <h4 className="ml-2 font-medium text-base  sm:text-2xl text-gray-700 ">MAHBUBUR RAHMAN</h4>
               </div>
-              <div className="rounded-full shadow-lg default-gradient h-8 w-8  flex justify-center items-center">
+              <div className="rounded-full shadow-lg default-gradient h-8 w-8  flex justify-center items-center" onClick={closeMobileMenu}>
                 <FontAwesomeIcon icon={faTimes} />
               </div>
             </div>
