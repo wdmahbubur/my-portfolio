@@ -4,6 +4,7 @@ import Header from './component/Header'
 import React from 'react';
 import Banner from './component/Banner';
 import Features from './component/Features';
+import Portfolio from './component/Portfolio';
 
 export default function Home() {
 
@@ -20,6 +21,8 @@ export default function Home() {
         <Banner />
         <hr className="h-1 bg-gray-200 rounded-lg" />
         <Features />
+        <hr />
+        <Portfolio />
       </main>
 
       <footer className={styles.footer}>
