@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Header from './component/Header'
 import React from 'react';
 import Banner from './component/Banner';
+import Features from './component/Features';
 
 export default function Home() {
 
@@ -15,8 +16,10 @@ export default function Home() {
       </Head>
 
       <Header />
-      <main className={styles.main}>
+      <main className="container mx-auto px-4 sm:px-0">
         <Banner />
+        <hr className="h-1 bg-gray-200 rounded-lg" />
+        <Features />
       </main>
 
       <footer className={styles.footer}>

@@ -10,9 +10,9 @@ import myImage from '../../public/banner-image.png';
 
 const Banner = () => {
     return (
-        <div className="container mx-auto mt-16 sm:mt-32">
+        <div className="mt-16 sm:mt-32">
             <div className="grid sm:grid-cols-2 py-16 items-center">
-                <div className="px-4 sm:px-0">
+                <div className="">
                     <h5 className="uppercase text-xl text-gray-600 mb-4">Welcome to my world</h5>
                     <h2 className="font-bold text-blue-600 text-2xl sm:text-5xl mb-7">Hi, I`m Mahbubur Rahman</h2>
                     <h3 className="text-xl sm:text-5xl font-medium text-blue-600">A&nbsp;

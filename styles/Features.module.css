@@ -1,0 +1,7 @@
+.featuresCard {
+    transition: background 0.5s ease-in-out;
+}
+.featuresCard:hover {
+    background: rgba(59, 130, 246, 1);
+    color: #fff;
+}

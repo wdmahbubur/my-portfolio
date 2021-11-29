@@ -21,7 +21,7 @@ const Header = () => {
     }
     return (
         <header className="fixed w-full top-0 bg-gray-100 z-50">
-            <nav className="shadow-lg p-2 sm:py-3 sm:px-5">
+            <nav className="shadow-lg p-2 sm:py-4 sm:px-5">
                 {/* navbar */}
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
