@@ -20,7 +20,7 @@ const Header = () => {
         mobileMenu.current.style.opacity = "0%";
     }
     return (
-        <header>
+        <header className="fixed w-full top-0 bg-gray-100 z-50">
             <nav className="shadow-lg p-2 sm:py-3 sm:px-5">
                 {/* navbar */}
                 <div className="flex justify-between items-center">
@@ -77,13 +77,13 @@ const Header = () => {
                     <div className="px-2 pb-5 absolute bottom-0">
                         <h5 className="uppercase text-gray-700 font-semibold">Find With Me</h5>
                         <div className="mt-3 flex gap-5">
-                            <div className="default-gradient flex justify-center items-center h-12 w-12 rounded">
+                            <div className="defaultGradient flex justify-center items-center h-12 w-12 rounded">
                                 <div><FontAwesomeIcon icon={faFacebookF} className="text-blue-500" /></div>
                             </div>
-                            <div className="default-gradient flex justify-center items-center h-12 w-12 rounded">
+                            <div className="defaultGradient flex justify-center items-center h-12 w-12 rounded">
                                 <div><FontAwesomeIcon icon={faLinkedinIn} className="text-blue-500" /></div>
                             </div>
-                            <div className="default-gradient flex justify-center items-center h-12 w-12 rounded">
+                            <div className="defaultGradient flex justify-center items-center h-12 w-12 rounded">
                                 <div><FontAwesomeIcon icon={faGithub} className="text-blue-500" /></div>
                             </div>
                         </div>
