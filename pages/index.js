@@ -5,6 +5,8 @@ import React from 'react';
 import Banner from './component/Banner';
 import Features from './component/Features';
 import Portfolio from './component/Portfolio';
+import Blog from './component/Blog';
+import Contact from './component/Contact';
 
 export default function Home() {
 
@@ -21,8 +23,12 @@ export default function Home() {
         <Banner />
         <hr className="h-1 bg-gray-200 rounded-lg" />
         <Features />
-        <hr />
+        <hr className="h-1 bg-gray-200 rounded-lg" />
         <Portfolio />
+        <hr className="h-1 bg-gray-200 rounded-lg" />
+        <Blog />
+        <hr className="h-1 bg-gray-200 rounded-lg" />
+        <Contact/>
       </main>
 
       <footer className={styles.footer}>

@@ -7,6 +7,7 @@ import { faFacebookF, faGithub, faLinkedinIn, faReact, faNodeJs, faJsSquare } fr
 import mongodb from '../../public/mongodb.png';
 import nodejs from '../../public/node-js.png';
 import myImage from '../../public/banner-image.png';
+import FollowMe from './FollowMe';
 
 const Banner = () => {
     return (
@@ -45,24 +46,8 @@ const Banner = () => {
                     </Link>
                     <div className="sm:flex justify-between">
                         <div className="mt-12">
-                            <h5 className="uppercase text-gray-700 font-semibold">Find With Me</h5>
-                            <div className="mt-3 flex gap-5">
-                                <Link href="https://facebook.com/mrrohanc.2001" >
-                                    <a className="defaultGradient flex justify-center items-center h-12 w-12 rounded" target="_blank">
-                                        <div><FontAwesomeIcon icon={faFacebookF} className="text-blue-500" /></div>
-                                    </a>
-                                </Link>
-                                <Link href="https://www.linkedin.com/in/mrrohanc/">
-                                    <a className="defaultGradient flex justify-center items-center h-12 w-12 rounded" target="_blank">
-                                        <div><FontAwesomeIcon icon={faLinkedinIn} className="text-blue-500" /></div>
-                                    </a>
-                                </Link>
-                                <Link href="https://github.com/wdmahbubur/">
-                                    <a className="defaultGradient flex justify-center items-center h-12 w-12 rounded" target="_blank">
-                                        <div><FontAwesomeIcon icon={faGithub} className="text-blue-500" /></div>
-                                    </a>
-                                </Link>
-                            </div>
+                            <h5 className="uppercase text-gray-700 font-semibold">Follow Me</h5>
+                            <FollowMe />
                         </div>
                         <div className="mt-12">
                             <h5 className="uppercase text-gray-700 font-semibold">My Skills On</h5>

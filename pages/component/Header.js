@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
 import me from '../../public/me.jpg';
+import styles from '../../styles/Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import styles from '../../styles/Header.module.css';
+import FollowMe from './FollowMe';
 
 const Header = () => {
     const mobileMenu = React.useRef();
@@ -75,19 +75,8 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="px-2 pb-5 absolute bottom-0">
-                        <h5 className="uppercase text-gray-700 font-semibold">Find With Me</h5>
-                        <div className="mt-3 flex gap-5">
-                            <div className="defaultGradient flex justify-center items-center h-12 w-12 rounded">
-                                <div><FontAwesomeIcon icon={faFacebookF} className="text-blue-500" /></div>
-                            </div>
-                            <div className="defaultGradient flex justify-center items-center h-12 w-12 rounded">
-                                <div><FontAwesomeIcon icon={faLinkedinIn} className="text-blue-500" /></div>
-                            </div>
-                            <div className="defaultGradient flex justify-center items-center h-12 w-12 rounded">
-                                <div><FontAwesomeIcon icon={faGithub} className="text-blue-500" /></div>
-                            </div>
-                        </div>
-
+                        <h5 className="uppercase text-gray-700 font-semibold">Follow Me</h5>
+                        <FollowMe />
                     </div>
                 </div>
             </div>

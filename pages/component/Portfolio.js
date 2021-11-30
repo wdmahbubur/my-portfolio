@@ -20,7 +20,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <h6 className="text-blue-600 uppercase tracking-widest text-base mt-5">MERN Stack</h6>
+                    <h6 className="text-blue-600 uppercase tracking-widest text-sm mt-5">MERN Stack</h6>
                     <h4 className="text-3xl font-medium mt-2 mb-4">DroneBazar</h4>
                     <h5 className="text-xl">A Drone Selling Website</h5>
                 </div>
@@ -31,7 +31,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <h6 className="text-blue-600 uppercase tracking-widest text-base mt-5">MERN Stack</h6>
+                    <h6 className="text-blue-600 uppercase tracking-widest text-sm mt-5">MERN Stack</h6>
                     <h4 className="text-3xl font-medium mt-2 mb-4">iTravel</h4>
                     <h5 className="text-xl">A Travel Booking Website</h5>
                 </div>
@@ -42,7 +42,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <h6 className="text-blue-600 uppercase tracking-widest text-base mt-5">Front-End</h6>
+                    <h6 className="text-blue-600 uppercase tracking-widest text-sm mt-5">Front-End</h6>
                     <h4 className="text-3xl font-medium mt-2 mb-4">Medi Life</h4>
                     <h5 className="text-xl">A Appointment Booking Website</h5>
                 </div>
