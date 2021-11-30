@@ -16,17 +16,17 @@ const Features = () => {
                 <div className={`py-8 sm:py-16 px-8 sm:px-16 rounded-lg text-gray-600 ${styles.featuresCard} defaultGradient `}>
                     <Image src={frontEnd} alt="" height={50} width={50} />
                     <h4 className="text-2xl font-medium ">Front-End Development</h4>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptate, deserunt illum nesciunt iste esse, </p>
+                    <p className="mt-3">The front-end is like the human body that we see with normal eyes. I develop front-end with HTML, CSS, Javascript, React.</p>
                 </div>
                 <div className={`py-8 sm:py-16 px-8 sm:px-16 rounded-lg text-gray-600 ${styles.featuresCard} defaultGradient `}>
                     <Image src={backEnd} alt="" height={50} width={50} />
                     <h4 className="text-2xl font-medium ">Back-End Development</h4>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptate, deserunt illum nesciunt iste esse, </p>
+                    <p className="mt-3">The back-end is like the human body that we do not see with normal eyes. I develop back-end with Node JS, Express JS, MongoDB.</p>
                 </div>
                 <div className={`py-8 sm:py-16 px-8 sm:px-16 rounded-lg text-gray-600 ${styles.featuresCard} defaultGradient `}>
                     <Image src={fullStack} alt="" height={50} width={50} />
                     <h4 className="text-2xl font-medium ">Full-Stack Development</h4>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptate, deserunt illum nesciunt iste esse, </p>
+                    <p className="mt-3">The full-stack is like the complete human body that we see and do not see with normal eyes. </p>
                 </div>
             </div>
         </div>

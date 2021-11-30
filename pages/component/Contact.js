@@ -35,7 +35,7 @@ const Contact = () => {
 
     return (
         <div className="py-16 relative" id="contact">
-            <div className="text-center">
+            <div className="">
                 < h5 className="uppercase text-xl text-blue-600 mb-4 font-base tracking-widest" > Contact</h5 >
                 <h2 className="font-bold text-gray-600 text-4xl sm:text-6xl mb-7">Contact With Me</h2>
             </div >

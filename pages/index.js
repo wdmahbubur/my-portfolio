@@ -7,6 +7,8 @@ import Features from './component/Features';
 import Portfolio from './component/Portfolio';
 import Blog from './component/Blog';
 import Contact from './component/Contact';
+import Footer from './component/Footer';
+import About from './component/About';
 
 export default function Home() {
 
@@ -22,17 +24,20 @@ export default function Home() {
       <main className="container mx-auto px-4 sm:px-0">
         <Banner />
         <hr className="h-1 bg-gray-200 rounded-lg" />
+        <About />
+        <hr className="h-1 bg-gray-200 rounded-lg" />
         <Features />
         <hr className="h-1 bg-gray-200 rounded-lg" />
         <Portfolio />
         <hr className="h-1 bg-gray-200 rounded-lg" />
         <Blog />
         <hr className="h-1 bg-gray-200 rounded-lg" />
-        <Contact/>
+        <Contact />
+        <hr className="h-1 bg-gray-200 rounded-lg" />
       </main>
 
       <footer className={styles.footer}>
-
+        <Footer />
       </footer>
     </>
   )

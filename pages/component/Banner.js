@@ -39,10 +39,8 @@ const Banner = () => {
                             }}
                         />
                     </h3>
-                    <p className="my-8 text-base text-gray-600">I`m a junior full-stack developer. I made many projects, similar to single item selling sites, e-commerce, travel booking, doctor appointment booking, and more. All the projects are interactive. I`m comfortable with React JS, Node Js, Express JS, MongoDB, and the capacity to write clean and productive code.
-                    </p>
                     <Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download">
-                        <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient inline-block">Download Resume</a>
+                        <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient inline-block mt-16">Download Resume</a>
                     </Link>
                     <div className="sm:flex justify-between">
                         <div className="mt-12">

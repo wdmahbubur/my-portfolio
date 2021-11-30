@@ -35,6 +35,7 @@ const Header = () => {
                     <div className="hidden sm:block">
                         <ul className="flex items-center gap-5 text-gray-500 uppercase font-semibold">
                             <li><Link href="#home"> Home</Link></li>
+                            <li><Link href="#about"> About</Link></li>
                             <li><Link href="#features"> Feature</Link></li>
                             <li><Link href="#project"> Projects</Link></li>
                             <li><Link href="#blog"> Blog</Link></li>
@@ -63,6 +64,7 @@ const Header = () => {
                     <div className="p-2 mt-5">
                         <ul className="text-gray-500 uppercase font-semibold flex flex-col gap-6">
                             <li><Link href="#home"> Home</Link></li>
+                            <li><Link href="#about"> About</Link></li>
                             <li><Link href="#feature"> Feature</Link></li>
                             <li><Link href="#project"> Projects</Link></li>
                             <li><Link href="#blog">Blog</Link></li>
