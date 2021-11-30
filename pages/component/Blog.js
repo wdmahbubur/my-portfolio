@@ -4,7 +4,7 @@ import DroneBazar from '../../public/DroneBazar.png';
 
 const Blog = () => {
     return (
-        <div className="py-16">
+        <div className="py-16" id="blog">
             <div className="text-center">
                 <h5 className="uppercase text-xl text-blue-600 mb-4 font-base tracking-widest">VISIT MY BLOG AND KEEP YOUR FEEDBACK</h5>
                 <h2 className="font-bold text-gray-600 text-5xl sm:text-6xl mb-7">My Blog</h2>

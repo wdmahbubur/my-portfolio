@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 import me from '../../public/me.jpg';
 import styles from '../../styles/Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -34,12 +34,11 @@ const Header = () => {
                     {/* desktop menu */}
                     <div className="hidden sm:block">
                         <ul className="flex items-center gap-5 text-gray-500 uppercase font-semibold">
-                            <li><Link href="#"> Home</Link></li>
-                            <li><Link href="#"> Feature</Link></li>
-                            <li><Link href="#"> Portfolio</Link></li>
-                            <li><Link href="#"> Projects</Link></li>
-                            <li><Link href="#"> Blog</Link></li>
-                            <li><Link href="#"> Contact</Link></li>
+                            <li><Link href="#home"> Home</Link></li>
+                            <li><Link href="#features"> Feature</Link></li>
+                            <li><Link href="#project"> Projects</Link></li>
+                            <li><Link href="#blog"> Blog</Link></li>
+                            <li><Link href="#contact"> Contact</Link></li>
                             <li>
                                 <Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
                                     <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
@@ -63,12 +62,11 @@ const Header = () => {
                     </div>
                     <div className="p-2 mt-5">
                         <ul className="text-gray-500 uppercase font-semibold flex flex-col gap-6">
-                            <li><Link href="#"> Home</Link></li>
-                            <li><Link href="#"> Feature</Link></li>
-                            <li><Link href="#"> Portfolio</Link></li>
-                            <li><Link href="#"> Projects</Link></li>
-                            <li><Link href="#"> Blog</Link></li>
-                            <li><Link href="#"> Contact</Link></li>
+                            <li><Link href="#home"> Home</Link></li>
+                            <li><Link href="#feature"> Feature</Link></li>
+                            <li><Link href="#project"> Projects</Link></li>
+                            <li><Link href="#blog">Blog</Link></li>
+                            <li><Link href="#contact"> Contact</Link></li>
                             <li><Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
                                 <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
                             </Link></li>

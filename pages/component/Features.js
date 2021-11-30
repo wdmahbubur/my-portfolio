@@ -7,7 +7,7 @@ import fullStack from '../../public/full-stack.png';
 import styles from '../../styles/Features.module.css';
 const Features = () => {
     return (
-        <div className="py-16">
+        <div className="py-16" id="features">
             <div>
                 <h5 className="uppercase text-xl text-blue-600 mb-4 font-base tracking-widest">Features</h5>
                 <h2 className="font-bold text-gray-600 text-5xl sm:text-6xl mb-7">What I Do</h2>

@@ -11,7 +11,7 @@ import FollowMe from './FollowMe';
 
 const Banner = () => {
     return (
-        <div className="mt-16 sm:mt-32">
+        <div className="mt-16 sm:mt-32" id="home">
             <div className="grid sm:grid-cols-2 py-16 items-center">
                 <div className="">
                     <h5 className="uppercase text-xl text-gray-600 mb-4">Welcome to my world</h5>

@@ -7,10 +7,10 @@ import styles from '../../styles/Portfolio.module.css';
 
 const Portfolio = () => {
     return (
-        <div className="py-16">
+        <div className="py-16" id="project">
             <div className="text-center">
                 <h5 className="uppercase text-xl text-blue-600 mb-4 font-base tracking-widest">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h5>
-                <h2 className="font-bold text-gray-600 text-5xl sm:text-6xl mb-7">My Portfolio</h2>
+                <h2 className="font-bold text-gray-600 text-5xl sm:text-6xl mb-7">My Projects</h2>
             </div>
             <div className="mt-16 grid sm:grid-cols-3 gap-10">
                 <div className={`p-8 rounded-lg text-gray-600 defaultGradient`}>
