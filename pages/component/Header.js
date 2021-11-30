@@ -36,7 +36,7 @@ const Header = () => {
                         <ul className="flex items-center gap-5 text-gray-500 uppercase font-semibold">
                             <li><Link href="#home"> Home</Link></li>
                             <li><Link href="#about"> About</Link></li>
-                            <li><Link href="#features"> Feature</Link></li>
+                            <li><Link href="#features"> Features</Link></li>
                             <li><Link href="#project"> Projects</Link></li>
                             <li><Link href="#blog"> Blog</Link></li>
                             <li><Link href="#contact"> Contact</Link></li>
@@ -65,7 +65,7 @@ const Header = () => {
                         <ul className="text-gray-500 uppercase font-semibold flex flex-col gap-6">
                             <li><Link href="#home"> Home</Link></li>
                             <li><Link href="#about"> About</Link></li>
-                            <li><Link href="#feature"> Feature</Link></li>
+                            <li><Link href="#feature"> Features</Link></li>
                             <li><Link href="#project"> Projects</Link></li>
                             <li><Link href="#blog">Blog</Link></li>
                             <li><Link href="#contact"> Contact</Link></li>

@@ -39,7 +39,7 @@ const Contact = () => {
                 < h5 className="uppercase text-xl text-blue-600 mb-4 font-base tracking-widest" > Contact</h5 >
                 <h2 className="font-bold text-gray-600 text-4xl sm:text-6xl mb-7">Contact With Me</h2>
             </div >
-            <div className="grid sm:grid-cols-12 gap-10 mt-12">
+            <div className="grid sm:grid-cols-12 gap-10 mt-12" data-aos="fade-up">
                 <div className="defaultGradient col-span-4 sm:col-span-8 p-4 sm:p-12 rounded-lg">
                     <form className="flex flex-col gap-5" onSubmit={handleSubmit} ref={form}>
                         <div className="grid sm:grid-cols-2 gap-5">
@@ -70,7 +70,7 @@ const Contact = () => {
                         </div>
                     </form >
                 </div >
-                <div className="defaultGradient col-span-4 py-8 px-6 rounded-lg">
+                <div className="defaultGradient col-span-4 py-8 px-6 rounded-lg" data-aos="fade-left">
                     <div className="">
                         <Image src={myPhoto} alt="my-photo" height={350} className="rounded-lg" />
                     </div>
