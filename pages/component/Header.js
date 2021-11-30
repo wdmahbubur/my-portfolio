@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
                         <Image src={me} width={40} height={40} alt="icon" className="rounded-full flex items-center justify-center logo" />
-                        <h4 className="ml-2 font-medium text-xl sm:text-2xl text-gray-700 ">MAHBUBUR RAHMAN</h4>
+                        <h4 className="ml-2 font-medium text-xl sm:text-2xl text-gray-700 "><Link href="/">MAHBUBUR RAHMAN</Link></h4>
                     </div>
                     <div className="sm:hidden" onClick={openMobileMenu} >
                         <FontAwesomeIcon icon={faBars} className="text-gray-700" height="50" />
@@ -34,12 +34,12 @@ const Header = () => {
                     {/* desktop menu */}
                     <div className="hidden sm:block">
                         <ul className="flex items-center gap-5 text-gray-500 uppercase font-semibold">
-                            <li><Link href="#home"> Home</Link></li>
-                            <li><Link href="#about"> About</Link></li>
-                            <li><Link href="#features"> Features</Link></li>
-                            <li><Link href="#project"> Projects</Link></li>
-                            <li><Link href="#blog"> Blog</Link></li>
-                            <li><Link href="#contact"> Contact</Link></li>
+                            <li><Link href="/"> Home</Link></li>
+                            <li><Link href="/#about"> About</Link></li>
+                            <li><Link href="/#features"> Features</Link></li>
+                            <li><Link href="/#project"> Projects</Link></li>
+                            <li><Link href="/#blog"> Blog</Link></li>
+                            <li><Link href="/#contact"> Contact</Link></li>
                             <li>
                                 <Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
                                     <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
@@ -55,7 +55,7 @@ const Header = () => {
                     <div className="flex justify-between items-center border-b-2 border-gray-400 p-2">
                         <div className="flex items-center">
                             <Image src={me} width={40} height={40} alt="icon" className="rounded-full flex items-center justify-center logo" />
-                            <h4 className="ml-2 font-medium text-base  sm:text-2xl text-gray-700 ">MAHBUBUR RAHMAN</h4>
+                            <h4 className="ml-2 font-medium text-base  sm:text-2xl text-gray-700 "><Link href="/">MAHBUBUR RAHMAN</Link></h4>
                         </div>
                         <div className="rounded-full shadow-lg default-gradient h-8 w-8  flex justify-center items-center" onClick={closeMobileMenu}>
                             <FontAwesomeIcon icon={faTimes} />
@@ -63,12 +63,12 @@ const Header = () => {
                     </div>
                     <div className="p-2 mt-5">
                         <ul className="text-gray-500 uppercase font-semibold flex flex-col gap-6">
-                            <li><Link href="#home"> Home</Link></li>
-                            <li><Link href="#about"> About</Link></li>
-                            <li><Link href="#feature"> Features</Link></li>
-                            <li><Link href="#project"> Projects</Link></li>
-                            <li><Link href="#blog">Blog</Link></li>
-                            <li><Link href="#contact"> Contact</Link></li>
+                            <li><Link href="/"> Home</Link></li>
+                            <li><Link href="/#about"> About</Link></li>
+                            <li><Link href="/#feature"> Features</Link></li>
+                            <li><Link href="/#project"> Projects</Link></li>
+                            <li><Link href="/#blog">Blog</Link></li>
+                            <li><Link href="/#contact"> Contact</Link></li>
                             <li><Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
                                 <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
                             </Link></li>
