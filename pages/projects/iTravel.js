@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../component/Layout';
@@ -33,7 +33,8 @@ import SwiperCore, {
 SwiperCore.use([FreeMode, Navigation, Thumbs]);
 
 const iTravel = () => {
-    const [thumbsSwiper, setThumbsSwiper] = React.useState(null);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
     return (
         <>
             <Head>
@@ -117,7 +118,7 @@ const iTravel = () => {
                                 </a>
                             </Link>
                         </div>
-                        <p className="mb-7">It is a Travel Agency Website. It's a MERN Stack project. Used ReactJS, Bootstrap, Firebase, react-router-dom, Mongodb for Database, NodeJS and ExpressJS for backend, etc. User sees the travel services and booking travel services. User login to get more options.</p>
+                        <p className="mb-7">It is a Travel Agency Website. It`s a MERN Stack project. Used ReactJS, Bootstrap, Firebase, react-router-dom, Mongodb for Database, NodeJS and ExpressJS for backend, etc. User sees the travel services and booking travel services. User login to get more options.</p>
                         <div>
                             <h4 className="font-bold text-gray-600 text-xl sm:text-2xl">Features</h4>
                             <hr className="h-1 bg-gray-200 rounded-lg" />

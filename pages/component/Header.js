@@ -41,7 +41,7 @@ const Header = () => {
                             <li><Link href="/#blog"> Blog</Link></li>
                             <li><Link href="/#contact"> Contact</Link></li>
                             <li>
-                                <Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
+                                <Link href="https://drive.google.com/u/0/uc?id=1yyGWs5HkeahnynTYgVGsJ4L8pNKctR0J&export=download" >
                                     <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
                                 </Link>
                             </li>
@@ -69,7 +69,7 @@ const Header = () => {
                             <li><Link href="/#project"> Projects</Link></li>
                             <li><Link href="/#blog">Blog</Link></li>
                             <li><Link href="/#contact"> Contact</Link></li>
-                            <li><Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download" >
+                            <li><Link href="https://drive.google.com/u/0/uc?id=1yyGWs5HkeahnynTYgVGsJ4L8pNKctR0J&export=download" >
                                 <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient">Download Resume</a>
                             </Link></li>
                         </ul>
