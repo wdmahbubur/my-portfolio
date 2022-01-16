@@ -39,7 +39,7 @@ const Banner = () => {
                             }}
                         />
                     </h3>
-                    <Link href="https://drive.google.com/uc?id=17xSMG2ZdrYPjV3PIgXvl7QsdC2AcirNI&export=download">
+                    <Link href="https://drive.google.com/uc?id=1yyGWs5HkeahnynTYgVGsJ4L8pNKctR0J&export=download">
                         <a className="py-4 px-5 rounded-lg outline-none transition duration-500 linear text-blue-500 uppercase font-semibold defaultBtn defaultGradient inline-block mt-8 sm:mt-16">Download Resume</a>
                     </Link>
                     <div className="sm:flex justify-between">
