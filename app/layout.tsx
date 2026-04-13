@@ -7,20 +7,19 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Mahbubur Rahman - Senior Software Developer | Full Stack MERN',
+  title: 'Mahbubur Rahman - Senior Software Developer | AI & Automation',
   description: 'Senior Full Stack Developer with 3+ years of experience in MERN stack, AI integration, and cloud solutions. Specializing in scalable web applications and DevOps.',
-  generator: 'v0.app',
-  keywords: ['Full Stack Developer', 'MERN Stack', 'React', 'Node.js', 'TypeScript', 'AI Integration'],
+  keywords: ['Full Stack Developer', 'MERN Stack', 'React', 'Node.js', 'TypeScript', 'AI Integration', 'Automation', 'DevOps', 'Cloud Solutions', 'Scalable Web Applications', 'Angular.js', 'Next.js', 'Tailwind CSS', 'MS SQL', 'Azure', 'Git', 'GitHub', 'CI/CD Pipelines', 'Webpack & Vite', 'Linux/Unix', 'Software Developer'],
   authors: [{ name: 'Mahbubur Rahman' }],
   openGraph: {
     title: 'Mahbubur Rahman - Senior Software Developer',
-    description: 'Full Stack Developer | MERN | AI & Automation',
+    description: 'Full Stack Developer | AI & Automation',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Mahbubur Rahman - Senior Software Developer',
-    description: 'Full Stack Developer | MERN | AI & Automation',
+    description: 'Full Stack Developer | AI & Automation',
   },
   icons: {
     icon: [
